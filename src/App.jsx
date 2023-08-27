@@ -2,6 +2,7 @@ import "./App.css";
 import Recipe from "./Components/RecipeGrid";
 import { Community } from "./Components/Community";
 import recipeData from "./recipe-data";
+import chefHat from "./assets/icons8-chef-hat-50.png";
 import communityData from "./community-data";
 function App() {
   return (
@@ -9,11 +10,7 @@ function App() {
       <div className="top">
         <nav className="nav">
           <div className="logo">
-            <img
-              src="../public/icons8-chef-hat-50.png"
-              alt=""
-              className="logo-img"
-            />
+            <img src={chefHat} alt="" className="logo-img" />
             <p className="logo-p">Cookpedia</p>
           </div>
           <div className="nav-list">
