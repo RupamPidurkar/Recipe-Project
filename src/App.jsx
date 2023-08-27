@@ -5,7 +5,7 @@ import recipeData from "./recipe-data";
 import chefHat from "./assets/icons8-chef-hat-50.png";
 import search from "./assets/search.png";
 import profile from "./assets/profile.png";
-import plates from "./assets/Right-Plates.png";
+import plates from "./assets/Top-Right-Plates.png";
 import iphone from "./assets/pngfind.com-iphone-png-14057911.png";
 import appStore from "./assets/PngItem_1144050.png";
 import communityData from "./community-data";
