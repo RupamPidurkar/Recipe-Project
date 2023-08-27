@@ -10,7 +10,7 @@ function App() {
         <nav className="nav">
           <div className="logo">
             <img
-              src="./public/icons8-chef-hat-50.png"
+              src="../public/icons8-chef-hat-50.png"
               alt=""
               className="logo-img"
             />
@@ -24,10 +24,10 @@ function App() {
           </div>
           <div className="search-profile">
             <a href="#">
-              <img src="./public/search.png" className="search"></img>
+              <img src="../public/search.png" className="search"></img>
             </a>
             <a href="#">
-              <img src="./public/profile.png" className="profile"></img>
+              <img src="../public/profile.png" className="profile"></img>
             </a>
           </div>
         </nav>
@@ -114,7 +114,7 @@ function App() {
         <div className="phones">
           <div className="phone-left">
             <img
-              src="./public/pngfind.com-iphone-png-14057911.png"
+              src="../public/pngfind.com-iphone-png-14057911.png"
               alt=""
               className="phone"
             />
@@ -127,7 +127,7 @@ function App() {
             </p>
             <div className="app-stores">
               <img
-                src="./public/PngItem_1144050.png"
+                src="../public/PngItem_1144050.png"
                 alt=""
                 className="google-play"
               />
@@ -140,7 +140,7 @@ function App() {
         <div className="footer-left">
           <div className="footer-logo">
             <img
-              src="./public/icons8-chef-hat-50.png"
+              src="../public/icons8-chef-hat-50.png"
               alt=""
               className="footer-logo-img"
             />
