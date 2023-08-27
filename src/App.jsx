@@ -10,7 +10,7 @@ function App() {
         <nav className="nav">
           <div className="logo">
             <img
-              src="src\assets\icons8-chef-hat-50.png"
+              src="./assets/icons8-chef-hat-50.png"
               alt=""
               className="logo-img"
             />
@@ -24,10 +24,10 @@ function App() {
           </div>
           <div className="search-profile">
             <a href="#">
-              <img src="src\assets\search.png" className="search"></img>
+              <img src="./assets/search.png" className="search"></img>
             </a>
             <a href="#">
-              <img src="src\assets\profile.png" className="profile"></img>
+              <img src="./assets/profile.png" className="profile"></img>
             </a>
           </div>
         </nav>
