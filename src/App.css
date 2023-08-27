@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "DM Sans", sans-serif;
+}
+.container {
+  overflow: hidden;
+}
+.top {
+  background-color: #2a5846;
+  padding: 3rem 8rem 4rem 8rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2em;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  align-items: center;
+  height: 1.5rem;
+}
+.logo-p {
+  font-size: 1.5rem;
+}
+.logo-img {
+  height: 1.5rem;
+}
+.search-profile {
+  display: flex;
+  gap: 3rem;
+}
+.search,
+.profile {
+  height: 1.5rem;
+}
+/* ----------------TOP FLEX---------------------- */
+
+.top-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50rem;
+  width: 50%;
+}
+.left-h1 {
+  font-size: 4rem;
+  padding-right: 4rem;
+  line-height: 5rem;
+}
+.left-p {
+  font-size: 1.4rem;
+}
+.left-btn {
+  width: 12.5rem;
+  font-weight: 100;
+  font-size: 1.2rem;
+  background-color: #0b9a61;
+}
+.right {
+  width: 50%;
+  position: relative;
+  text-align: center;
+}
+.top-right-plates {
+  width: 40rem;
+}
+/* -------------------------------------------- */
+
+.popular-recipes {
+  background-color: white;
+  color: black;
+  padding: 2rem 8rem 2rem 8rem;
+}
+.recipe-by {
+  color: grey;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-h2 {
+  font-size: 3rem;
+}
+.left-p {
+  color: rgb(183, 179, 179);
+}
+.see-all {
+  font-size: 1.5rem;
+  color: #0b9a61;
+}
+
+.recipes-grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 2rem;
+  column-gap: 2rem;
+  padding: 2rem 0;
+}
+
+.recipe-img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+/* ------------------------------------------------------- */
+
+.breakfast {
+  position: relative;
+  height: 33rem;
+  width: 100%;
+  color: black;
+}
+.breakfast::before {
+  content: "";
+  background-image: url("https://images.unsplash.com/photo-1478144592103-25e218a04891?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80");
+  position: absolute;
+  top: -10rem;
+  left: 0;
+  height: 80rem;
+  width: 100rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scaleY(-1);
+  text-decoration: none;
+  background-position: center;
+  z-index: -1;
+}
+.breakfast-detail {
+  width: 35%;
+  background-color: rgb(228, 227, 227);
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  position: absolute;
+  top: 10rem;
+  left: 50rem;
+}
+.breakfast-h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* ------------------------COMMUNITY STARTS HERE------------------------------------------------------ */
+.community {
+  background-color: #f7f7f7;
+  color: black;
+  padding: 6rem;
+}
+.community-h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+.community-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  place-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.community-grid-elements {
+  width: 40rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+}
+.community-card {
+  padding: 0 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.community-recipe-img {
+  width: 35rem;
+  height: 25rem;
+  border-radius: 0.8rem;
+}
+.community-profile-img {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.community-card {
+  display: flex;
+  flex-direction: column;
+}
+.user-profile {
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 0 1rem 4rem 0;
+}
+
+.activity {
+  display: flex;
+  justify-content: left;
+  gap: 4rem;
+}
+.like,
+.share {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.community-detail-p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.community-recipe-p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(224, 149, 12);
+}
+.community-user-name {
+  font-size: 1rem;
+  color: rgb(168, 167, 167);
+  font-weight: 300;
+}
+/* ---------------------Phones Start here---------------------------------- */
+.phones {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 35em;
+  width: 80%;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #0b9a61;
+}
+.phone-container {
+  padding: 4rem;
+  background-color: #f7f7f7;
+}
+.phone-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  position: relative;
+}
+.phone-right-h1 {
+  font-size: 3rem;
+}
+.phone-right-p {
+  font-size: 1.5rem;
+}
+.google-play {
+  height: 3.5rem;
+  width: 26rem;
+}
+.phone {
+  padding: 2rem;
+  height: 70rem;
+  margin-top: 20rem;
+}
+/* ---------------------------------------------------------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+  background-color: #2a5846;
+  color: white;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 0.5rem;
+}
+.footer-logo-h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.footer-logo-img {
+  height: 1.5rem;
+}
+
+.footer-left {
+  width: 22rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* justify-content: center;
+  align-items: center; */
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.right-menus {
+  display: flex;
+  gap: 6rem;
+}
+.right-h2 {
+  font-weight: 400;
+}
+.email-block {
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  display: flex;
+  border-bottom: 1px solid white;
+  padding: 0.5rem;
+}
+.email-input {
+  width: 24rem;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  color: rgb(255, 253, 253);
+}
+.email-input::placeholder {
+  color: rgb(183, 183, 183);
+}
+.footer-btn {
+  padding: 0.5rem 2rem;
+  background-color: #0b9a61;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.social-list,
+.menu-list,
+.help-list,
+.menu,
+.help,
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.social-list a {
+  color: white;
+}
+.menu-h2,
+.social-h2,
+.help-h2 {
+  font-weight: 300;
+}
