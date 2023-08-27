@@ -7,7 +7,7 @@ import search from "./assets/search.png";
 import profile from "./assets/profile.png";
 import plates from "./assets/Right-Plates.png";
 import iphone from "./assets/pngfind.com-iphone-png-14057911.png";
-import appStore from "./assets/PngItem_1144050.png""
+import appStore from "./assets/PngItem_1144050.png";
 import communityData from "./community-data";
 function App() {
   return (
@@ -129,11 +129,7 @@ function App() {
       <div className="footer">
         <div className="footer-left">
           <div className="footer-logo">
-            <img
-              src={chefHat}
-              alt=""
-              className="footer-logo-img"
-            />
+            <img src={chefHat} alt="" className="footer-logo-img" />
             <h1 className="footer-logo-h1">Cookpedia</h1>
           </div>
           <p className="footer-left-p">
