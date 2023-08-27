@@ -3,6 +3,11 @@ import Recipe from "./Components/RecipeGrid";
 import { Community } from "./Components/Community";
 import recipeData from "./recipe-data";
 import chefHat from "./assets/icons8-chef-hat-50.png";
+import search from "./assets/search.png";
+import profile from "./assets/profile.png";
+import plates from "./assets/Right-Plates.png";
+import iphone from "./assets/pngfind.com-iphone-png-14057911.png";
+import appStore from "./assets/PngItem_1144050.png""
 import communityData from "./community-data";
 function App() {
   return (
@@ -21,10 +26,10 @@ function App() {
           </div>
           <div className="search-profile">
             <a href="#">
-              <img src="../public/search.png" className="search"></img>
+              <img src={search} className="search"></img>
             </a>
             <a href="#">
-              <img src="../public/profile.png" className="profile"></img>
+              <img src={profile} className="profile"></img>
             </a>
           </div>
         </nav>
@@ -43,11 +48,7 @@ function App() {
           </div>
           {/*************************************************************************/}
           <div className="right">
-            <img
-              src="./public/Top-Right-Plates.png"
-              alt=""
-              className="top-right-plates"
-            />
+            <img src={plates} alt="" className="top-right-plates" />
           </div>
         </div>
         {/*************************************************************************/}
@@ -110,11 +111,7 @@ function App() {
       <div className="phone-container">
         <div className="phones">
           <div className="phone-left">
-            <img
-              src="../public/pngfind.com-iphone-png-14057911.png"
-              alt=""
-              className="phone"
-            />
+            <img src={iphone} alt="" className="phone" />
           </div>
           <div className="phone-right">
             <h1 className="phone-right-h1">Download App</h1>
@@ -123,11 +120,7 @@ function App() {
               experience.
             </p>
             <div className="app-stores">
-              <img
-                src="../public/PngItem_1144050.png"
-                alt=""
-                className="google-play"
-              />
+              <img src={appStore} alt="" className="google-play" />
             </div>
           </div>
         </div>
@@ -137,7 +130,7 @@ function App() {
         <div className="footer-left">
           <div className="footer-logo">
             <img
-              src="../public/icons8-chef-hat-50.png"
+              src={chefHat}
               alt=""
               className="footer-logo-img"
             />
