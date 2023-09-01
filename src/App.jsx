@@ -8,7 +8,8 @@ import profile from "./assets/profile.png";
 import plates from "./assets/Top-Right-Plates.png";
 import iphone from "./assets/pngfind.com-iphone-png-14057911.png";
 import appStore from "./assets/PngItem_1144050.png";
-import communityData from "./community-data";
+import communityData from "./community-data.js";
+
 function App() {
   return (
     <div className="container">
@@ -97,7 +98,7 @@ function App() {
           {communityData.map((a) => (
             <div className="community-grid-elements" key={a.imgsrc}>
               <Community
-                imgsrc={a.comImg}
+                imgsrc={a.imgsrc}
                 recipe_p={a.com_recipe}
                 username_p={a.com_user}
                 detail_p={a.com_detail}

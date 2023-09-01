@@ -1,6 +1,7 @@
+import userIcon from "./assets/icons8-user-48.png";
 const communityData = [
   {
-    imgsrc: "srcassetsicons8-user-48.png",
+    imgsrc: userIcon,
     com_recipe: "Feta Avocado Toast",
     com_user: "Lee Soen",
     com_detail:
@@ -9,7 +10,7 @@ const communityData = [
       "https://images.unsplash.com/photo-1662375716007-3d61760d6977?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmV0YSUyMGF2b2NhZG8lMjB0b2FzdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
   {
-    imgsrc: "srcassetsicons8-user-48.png",
+    imgsrc: userIcon,
     com_recipe: "Grilled Salamon With Pesto Sauce",
     com_user: "Anne Henderson",
     com_detail:
@@ -17,7 +18,7 @@ const communityData = [
     com_Img: "https://www.pamperedchef.com/iceberg/com/recipe/50154-lg.jpg",
   },
   {
-    imgsrc: "srcassetsicons8-user-48.png",
+    imgsrc: userIcon,
     com_recipe: "Creamy Tomato Lasagna",
     com_user: "Katy Howard",
     com_detail:
@@ -26,7 +27,7 @@ const communityData = [
       "https://images.unsplash.com/photo-1551807501-9263ed1942d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
   },
   {
-    imgsrc: "srcassetsicons8-user-48.png",
+    imgsrc: userIcon,
     com_recipe: "Berries Overnight Oats",
     com_user: "Hannah Lewis",
     com_detail:

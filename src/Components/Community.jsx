@@ -1,12 +1,15 @@
-export function Community({ recipe_p, username_p, detail_p, recipeImg }) {
+/* eslint-disable react/prop-types */
+export function Community({
+  imgsrc,
+  recipe_p,
+  username_p,
+  detail_p,
+  recipeImg,
+}) {
   return (
     <div className="community-card">
       <div className="user-profile">
-        <img
-          src="src\assets\icons8-user-48.png"
-          alt=""
-          className="community-profile-img"
-        />
+        <img src={imgsrc} alt="" className="community-profile-img" />
         <div className="user-details">
           <p className="community-recipe-p">{recipe_p}</p>
           <p className="community-user-name">{username_p}</p>
